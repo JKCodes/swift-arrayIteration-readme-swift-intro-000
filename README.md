@@ -123,7 +123,7 @@ func numberOfFriendsAbove70(grades: [Int]) -> Int {
 
 let gradesFromExam = [80, 45, 79, 32, 84, 100, 53, 60]
 
-print numberOfFriendsAbove70(gradesFromExam)
+print(numberOfFriendsAbove70(gradesFromExam))
 // 4
 ```
 
@@ -137,3 +137,5 @@ Have a good look at the code above as it introduces a lot of new, but essential 
 
 [View this lesson on Learn.co](https://learn.co/lessons/ArrayIteration)
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-arrayIteration-readme'>Iterating Over an Array</a> on Learn.co and start learning to code for free.</p>
