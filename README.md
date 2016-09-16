@@ -18,7 +18,7 @@ In this lesson, we'll cover how to iterate, or perform the same action multiple 
 
 ## Improving Repetitive Tasks
 
-Creating arrays can allow us manipulate a collection of values. You can also print individual items in that collection, so if you wanted to print a list of your three friends you could do the following:
+Creating arrays can allow us to manipulate a collection of values. You can also print individual items in that collection, so if you wanted to print a list of your three friends you could do the following:
 
 ```swift
 let friends = ["Chris", "Billy", "Jessica"]
@@ -137,3 +137,5 @@ Have a good look at the code above as it introduces a lot of new, but essential 
 
 [View this lesson on Learn.co](https://learn.co/lessons/ArrayIteration)
 
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-arrayIteration-readme'>Iterating Over an Array</a> on Learn.co and start learning to code for free.</p>
