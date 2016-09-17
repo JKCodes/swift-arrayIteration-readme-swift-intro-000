@@ -123,7 +123,7 @@ func numberOfFriendsAbove70(grades: [Int]) -> Int {
 
 let gradesFromExam = [80, 45, 79, 32, 84, 100, 53, 60]
 
-print numberOfFriendsAbove70(gradesFromExam)
+print(numberOfFriendsAbove70(gradesFromExam))
 // 4
 ```
 
