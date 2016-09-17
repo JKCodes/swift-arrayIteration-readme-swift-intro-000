@@ -22,11 +22,11 @@ Creating arrays can allow us to manipulate a collection of values. You can also 
 
 ```swift
 let friends = ["Chris", "Billy", "Jessica"]
-print (friends[0])
+print(friends[0])
 // "Chris"
-print (friends[1])
+print(friends[1])
 // "Billy"
-print (friends[2])
+print(friends[2])
 // "Jessica"
 ```
 
@@ -48,7 +48,7 @@ for friend in friends {
 // Hello Jessica
 ```
 
-This example starts with a familiar array initialization, but then instead of using the `print` command for each value in the array, it says that `for` each value in the `friends` array, process the instructions in-between the `{}` symbols, which are called 'curly brackets' or 'mustaches'. In this example, these instructions print the current value of `friend`, or the value of the current index in the `friends` array, in the order they appear in the array.
+This example starts with a familiar array initialization, but then instead of using the `print` command for each value in the array, it says that `for` each value in the `friends` array, process the instructions in-between the `{}` symbols, which are called 'curly brackets'. In this example, these instructions print the current value of `friend`, or the value of the current index in the `friends` array, in the order they appear in the array.
 
 As `friends` is an array of type String, the type of `friend` will also be a String, and you can confirm this by typing the example above into a playground and _option + clicking_ `friend`.
 
@@ -123,7 +123,7 @@ func numberOfFriendsAbove70(grades: [Int]) -> Int {
 
 let gradesFromExam = [80, 45, 79, 32, 84, 100, 53, 60]
 
-print(numberOfFriendsAbove70(gradesFromExam))
+print(numberOfFriendsAbove70(grades: gradesFromExam))
 // 4
 ```
 
